@@ -1,0 +1,60 @@
+@import 'form';
+body {
+    background: url(img/index_4_main.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+p {
+    line-height: 2em;
+}
+h1 {
+    
+    span {
+        font-size: 35px;
+    }
+}
+.ten_item {
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    
+    &>div {
+        background-color: #fff;
+        width: 75%;
+        height: 50vh;
+        margin: 0 auto;
+        position: relative;
+        border: 1px solid #fff;
+
+        span {
+            font-family: 'Great Vibes', cursive;
+            color: #DCB87C;
+            font-size: 200px;
+           
+        }
+        .item_content {
+            position: absolute;
+            top: 20px;
+            left: 0;
+
+            h3 {
+                font-family: 'Tinos', serif;
+                font-size: 40px;
+                font-weight: 700;
+            }
+            p {
+                margin: 60px 0;
+            }
+        }
+        .hr_1 {
+            margin-top: 35vh;
+        }
+    }
+
+}
+
+/*
+*/

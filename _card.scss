@@ -1,0 +1,48 @@
+.card {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    div {
+        width: 40%;
+        box-shadow: 0 0 20px 20px #F8F8F8;
+        text-align: center;
+        transition-duration: 0.3s;
+        padding: 30px;
+        background-color: #fff;
+
+        &:hover {
+            box-shadow: 0 0 20px 20px #E7E7E7;
+        }
+
+        span {
+            display: inline-block;
+            width: 75px;
+            border-radius: 50%;
+            background-color: #E7E7E7;
+            transition-duration: 0.3s;
+            
+            &:hover {
+                background-color: #fff;
+                transform: scale(1.2);
+            }
+
+            i {
+                color: #D4AA00;
+                font-size: 35px;
+                line-height: 75px;
+                transition-duration: 0.3s;
+    
+                
+            }
+
+        }
+       
+        h3 {
+            font-size: 50px;
+            font-weight: 200;
+
+        }
+    }
+}
